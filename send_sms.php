@@ -23,7 +23,7 @@ if(isset($_POST['submitted']['civicrm_1_contact_1_fieldset_fieldset']['civicrm_1
   $client->account->messages->create(array( 
     'To' => $phone, 
     'From' => "+12267800039", 
-    'Body' => "{$firstname}, thanks for completing a Power to Change survey!  Explore our mycravings website at: http://mycravings.ca",   
+    'Body' => "{$firstname}hanks for completing a Power to Change survey!  Explore our mycravings website at: http://mycravings.ca",   
   ));
 
 }

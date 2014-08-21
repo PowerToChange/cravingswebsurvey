@@ -235,12 +235,6 @@ function survey_submit()
     // the server.
 
   $.ajax({
-    type: "POST",
-    url: "send_sms.php",
-    data: data,
-    dataType: 'html'
-  }).done(function() {
-    $.ajax({
       type: "POST",
       url: "https://hub.p2c.com/node/11",
       data: data,
@@ -249,8 +243,7 @@ function survey_submit()
       error: function(XMLHttpRequest, textStatus, errorThrown) {
         survey_show_screen('thankyou');
       }
-    })
-  });
+    });
 
 
 }
