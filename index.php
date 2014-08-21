@@ -191,7 +191,7 @@
             </a>
           </object>
         </div>
-          <h1>Thanks! Enjoy the dinner!</h1>
+          <h1>Thanks!</h1>
       </div>
       
       <div class="screen" order="error-submitting">
@@ -206,7 +206,7 @@
   
         <button id="submit-button" type="button" class="btn btn-primary" data-dismiss="modal">Done</button>
         <button id="reset-button" type="button" class="btn btn-link" data-dismiss="modal">Reset</button>
-        <a id="visit-button" type="button" class="btn btn-primary" data-dismiss="modal" href="http://p2c.com">Visit p2c.com</a>
+        <a id="visit-button" type="button" class="btn btn-primary" data-dismiss="modal" href="http://mycravings.ca">Visit mycravings.ca</a>
         <button id="retry-button" type="button" class="btn btn-primary" data-dismiss="modal">Try Submit Again</button>
               <!-- (person entering data)-->
               <input type="hidden" name="submitted[civicrm_1_activity_1_cg17_custom_151]" value="crave.mycravings.ca" /> 
