@@ -242,7 +242,7 @@ function survey_submit()
   }).done(function() {
     $.ajax({
       type: "POST",
-      url: "https://hub.p2c.com/node/38",
+      url: "https://hub.p2c.com/node/11",
       data: data,
       dataType: 'html',
       success: function(msg) { survey_show_screen('thankyou'); },
